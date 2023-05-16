@@ -9,7 +9,7 @@ def is_valid_state(missionaries, cannibals):
     if missionaries > 3 or cannibals > 3:
         return False
     return True
-
+ 
 def solve_river_crossing_problem():
     start_state = (3, 3, 'left')
     solutions = []
@@ -54,4 +54,5 @@ for i, solution in enumerate(solutions):
     for state in solution:
         print(state)
     print()
+    
 
